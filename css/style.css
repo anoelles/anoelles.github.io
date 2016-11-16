@@ -38,7 +38,7 @@ height:100%;
 font-size:14px;
 }
 a{
-color:#7BBAD6;
+color:#3FBCEA;
 }
 body{
 font-family:'Open Sans', sans-serif;
@@ -111,9 +111,11 @@ z-index:99;
 letter-spacing:3px;
 font-family:'Josefin Sans', sans-serif;
 }
+
 .welcome-text .container{
 max-width:800px;
 }
+
 .home-parallax, .parallax-bg, #home{
 background:url(../img/demo-images/parallax-bg.jpg) no-repeat fixed center top;
 /*background-size*/
@@ -140,18 +142,29 @@ width:100%;
 content:"";
 }
 
-.parallax-overlay{background-color:#7BBAD6}
+.parallax-overlay{background-color:#3FBCEA}
 
 .welcome-text h2{
 font-size:60px;
 letter-spacing:3px;
+background-color: black;
+padding-top: 20px;
+padding-bottom: 15px;
 /*text-transform:uppercase;*/
 }
 
 .welcome-text h3{
   font-size:36px;
   letter-spacing:3px;
-  color:#ECC7D2;
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.welcome-text p{
+  background-color: black;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 .social-bookmark{
@@ -193,7 +206,7 @@ opacity:.8;
 
 
 .navbar-default a.navbar-brand{
-color:#7BBAD6;
+color: black;
 font-weight:300;
 font-size:24px;
 text-transform:uppercase;
@@ -202,26 +215,26 @@ font-family:'Josefin Sans', sans-serif;
 }
 /*Name on nav bar left*/
 .navbar-default a.navbar-brand span{
-color:#F3F6FB;
+color:#FFFFFF;
 font-family:'Josefin Sans', sans-serif;
 }
 
 /*Original state of menu nav items*/
 .navbar-default .navbar-nav > li > a{
-color:#F3F6FB;
+color:#FFFFFF;
 letter-spacing:2px;
 text-transform:uppercase;
 }
 
 /*Hover state of menu items*/
 .navbar-default .navbar-nav > li.current > a,.navbar-default .navbar-nav > li > a:hover{
-color:#7BBAD6;
+color:#3FBCEA;
 }
 
 /*Hover state of name on left*/
 .navbar-default .navbar-nav > li > a:focus{
 outline:none;
-color:#7BBAD6;
+color:#3FBCEA;
 }
 
 /*.navbar-default .navbar-nav > li.current > a:focus{
@@ -231,8 +244,8 @@ color:#4599C8;
 /*Nav bar container*/
 
 .navbar-default{
-background-color:#232D30;
-border-color:#F3F6FB;
+background-color: black;
+/*border-color: black;*/
 }
 
 .is-sticky .navbar.navbar-default.navbar-static-top{
@@ -288,8 +301,8 @@ margin-right:20px;
 border:2px solid #57bddb;
 }
 .btn-bordered{
-border:2px solid #7BBAD6;
-color:#7BBAD6;
+border:2px solid #3FBCEA;
+color:#3FBCEA;
 background:transparent;
 }
 
@@ -351,8 +364,8 @@ margin-right:20px;
 border:2px solid #57bddb;
 }
 .btn-bordered{
-border:2px solid #7BBAD6;
-color:#7BBAD6;
+border:2px solid #3FBCEA;
+color:#3FBCEA;
 background:transparent;
 }
 
@@ -757,6 +770,9 @@ padding:100px 0;
 #our-team{
 background:#F3F6FB;
 }
+.page-title {
+  color: #3FBCEA;
+}
 .team-item img{
 width:50%;
 margin: 0 auto;
@@ -769,14 +785,14 @@ background:#F3F6FB;
 text-align:left;
 }
 .team-item h2{
-color:#7BBAD6;
+color:#3FBCEA;
 font-size:24px;
 text-transform:uppercase;
 font-weight:500;
 text-align: center;
 }
 .team-item h4{
-color:#232D30;
+color:#3FBCEA;
 text-transform:uppercase;
 font-weight:300;
 text-align: center;
