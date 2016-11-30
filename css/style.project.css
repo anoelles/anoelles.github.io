@@ -38,18 +38,30 @@ height:100%;
 font-size:14px;
 }
 a{
-color:#7BBAD6;
+color:#3FBCEA;
 }
 body{
 font-family:'Open Sans', sans-serif;
-color:#232D30;
+color:#86989d;
 line-height:23px;
 overflow-x:hidden;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+h1, h2, h3, h5, h6, .h1, .h2, .h3, .h5, .h6{
 font-weight:700;
 font-family:'Josefin Sans', sans-serif;
 }
+
+h4, .h4{
+  font-weight:400;
+  font-family:'Open Sans';
+  /*color:#3FBCEA;*/
+  color:black;
+}
+
+p{
+  color:black;
+}
+
 section{
 position:relative;
 }
@@ -111,9 +123,11 @@ z-index:99;
 letter-spacing:3px;
 font-family:'Josefin Sans', sans-serif;
 }
+
 .welcome-text .container{
 max-width:800px;
 }
+
 .home-parallax, .parallax-bg, #home{
 background:url(../img/demo-images/parallax-bg.jpg) no-repeat fixed center top;
 /*background-size*/
@@ -140,18 +154,29 @@ width:100%;
 content:"";
 }
 
-.parallax-overlay{background-color:#7BBAD6}
+.parallax-overlay{background-color:#3FBCEA}
 
 .welcome-text h2{
 font-size:60px;
 letter-spacing:3px;
+background-color: black;
+padding-top: 20px;
+padding-bottom: 15px;
 /*text-transform:uppercase;*/
 }
 
 .welcome-text h3{
   font-size:36px;
   letter-spacing:3px;
-  color:#ECC7D2;
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.welcome-text p{
+  background-color: black;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 .social-bookmark{
@@ -193,7 +218,7 @@ opacity:.8;
 
 
 .navbar-default a.navbar-brand{
-color:#7BBAD6;
+color: black;
 font-weight:300;
 font-size:24px;
 text-transform:uppercase;
@@ -202,26 +227,26 @@ font-family:'Josefin Sans', sans-serif;
 }
 /*Name on nav bar left*/
 .navbar-default a.navbar-brand span{
-color:#F3F6FB;
+color:#FFFFFF;
 font-family:'Josefin Sans', sans-serif;
 }
 
 /*Original state of menu nav items*/
 .navbar-default .navbar-nav > li > a{
-color:#F3F6FB;
+color:#FFFFFF;
 letter-spacing:2px;
 text-transform:uppercase;
 }
 
 /*Hover state of menu items*/
 .navbar-default .navbar-nav > li.current > a,.navbar-default .navbar-nav > li > a:hover{
-color:#7BBAD6;
+color:#3FBCEA;
 }
 
 /*Hover state of name on left*/
 .navbar-default .navbar-nav > li > a:focus{
 outline:none;
-color:#7BBAD6;
+color:#3FBCEA;
 }
 
 /*.navbar-default .navbar-nav > li.current > a:focus{
@@ -231,35 +256,33 @@ color:#4599C8;
 /*Nav bar container*/
 
 .navbar-default{
-background-color:#232D30;
-border-color:#F3F6FB;
+background-color: black;
+/*border-color: black;*/
 }
 
 .is-sticky .navbar.navbar-default.navbar-static-top{
 width:100%;
 }
 
-
 /* ------------------------------------	*/
 /* 		 	   3. About page- WA Project			*/
 /* -----------------------------------	*/
 
 #aboutWA{
-font-size:14px;
+/*font-size:13px;*/
 color:#232D30;
-background-color: #F3F6FB;
 }
 
 #aboutWA p{
-font-size:14px;
-color:#232D30;
+  font-family:'Open Sans', sans-serif;
 }
 
 #aboutWA img{
-  padding-bottom: 70px;
-/*  margin: 0 auto;*/
+  padding-bottom: 50px;
+  margin: 0 auto;
   width:100%;
 }
+
 
 .page-title{
 color:#4599C8;
@@ -274,10 +297,40 @@ text-transform:uppercase;
 
 #aboutWA .page-title{
 margin: 0 auto;
-margin-top:60px;
-text-transform:capitalize;
+/*margin-top:60px;*/
+/*text-transform:capitalize;*/
 font-size:24px;
-color:#4599C8;
+color:#3FBCEA;
+padding-top: 50px;
+}
+
+
+.btn-filled, .btn-bordered{
+/*border-radius*/
+-webkit-border-radius:0;
+   -moz-border-radius:0;
+        border-radius:0;
+margin-top:15px;
+}
+.btn-filled{
+background:#57bddb;
+color:#fff;
+margin-right:20px;
+border:2px solid #57bddb;
+}
+.btn-bordered{
+border:2px solid #3FBCEA;
+color:#3FBCEA;
+background:transparent;
+}
+
+.btn-filled:hover{
+color:#fff;
+opacity:.7;
+}
+.btn-bordered:hover{
+color:#57bddb;
+opacity:.7;
 }
 
 
@@ -310,7 +363,7 @@ text-transform:uppercase;
 #aboutA51 .page-title{
 margin: 0 auto;
 /*margin-top:60px;*/
-text-transform:capitalize;
+/*text-transform:capitalize;*/
 font-size:24px;
 color:#232D30;
 }
@@ -329,8 +382,8 @@ margin-right:20px;
 border:2px solid #57bddb;
 }
 .btn-bordered{
-border:2px solid #7BBAD6;
-color:#7BBAD6;
+border:2px solid #3FBCEA;
+color:#3FBCEA;
 background:transparent;
 }
 
@@ -347,9 +400,22 @@ opacity:.7;
 /*  		 4. Features page			*/
 /* -----------------------------------	*/
 
+#features h2{
+  color:#ffffff;
+}
+
+#features p{
+  color:#ffffff;
+  font-family:'Open Sans';
+}
+
+#features h4{
+  color:#ffffff;
+}
 
 #features{
-background:url(../img/demo-images/wa-hero.jpg) no-repeat fixed center top;
+background:url(../img/demo-images/
+  .png) no-repeat fixed center top;
 /*background-size*/
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
    -moz-background-size:cover;
@@ -357,8 +423,8 @@ background:url(../img/demo-images/wa-hero.jpg) no-repeat fixed center top;
         background-size:cover;
 }
 .features-bg{
-background:#7BBAD6;
-opacity:.9;
+background:#57bddb;
+opacity:.6;
 position:absolute;
 left:0;
 top:0;
@@ -387,26 +453,15 @@ font-weight:300;
 margin:0 0 15px;
 text-transform:uppercase;
 }
-
-#features p{
-  color: #ffffff;
-}
-
-#features .page-title{
-  color:#F3F6FB;
+.features-item p{
 }
 
 /* ------------------------------------	*/
 /*  		 5. Portfolio Page			*/
 /* -----------------------------------	*/
 
-#portfoliowa {
-  background: #F3F6FB;
-}
-
-#portfoliowa p{
+#portfolio p{
   color:#232D30;
-  text-align: left;
 }
 
 ul.portfolio-filters{
@@ -452,6 +507,94 @@ width:100%;
      -o-transition:all 200ms linear 0s;
         transition:all 200ms linear 0s;
 }
+.portfolio_item .portfolio-detail{
+display:none
+}
+.portfolio_item:hover .portfolio-detail{
+display:block
+}
+.portfolio-overlay {
+  background: none repeat scroll 0 0 #57BDDB;
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.portfolio-detail a{
+background:url("../img/plus.png") no-repeat scroll center center;
+display:block;
+height:100%;
+left:0;
+position:absolute;
+top:0;
+width:100%;
+z-index:99;
+}
+
+
+/* ------------------------------------ */
+/*       5. Portfolio Page      */
+/* -----------------------------------  */
+
+#portfolioWA p{
+  text-align:left;
+}
+
+/* ------------------------------------ */
+/*       5a. Portfolio Page -CASE STUDY     */
+/* -----------------------------------  */
+
+#portfolio p{
+  color:#232D30;
+}
+
+ul.portfolio-filters{
+}
+ul.portfolio-filters li{
+border:2px solid #86989d;
+color:#86989d;
+display:inline-block;
+font-family:pt sans;
+margin:3px;
+padding:5px 15px;
+text-transform:uppercase;
+cursor:pointer;
+letter-spacing:2px;
+}
+ul.portfolio-filters li.active, ul.portfolio-filters li:hover{
+background:#86989d;
+color:#fff;
+}
+
+#portfolio_list .pitem{
+position:relative;
+margin-top:30px;
+}
+#portfolio_list .portfolio_item{
+position:relative;
+overflow:hidden;
+}
+#portfolio_list .portfolio_item:hover img{
+/*transform*/
+-webkit-transform:scale(1.1);
+   -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+     -o-transform:scale(1.1);
+        transform:scale(1.1);
+}
+#portfolio_list .pitem  img{
+width:100%;
+/*transition*/
+-webkit-transition:all 200ms linear 0s;
+   -moz-transition:all 200ms linear 0s;
+     -o-transition:all 200ms linear 0s;
+        transition:all 200ms linear 0s;
+}
+
+
 .portfolio_item .portfolio-detail{
 display:none
 }
@@ -567,34 +710,34 @@ display:none;
 /* -----------------------------------	*/
 
 
-#parallax_1WA{
+#parallax_1{
 color:#fff;
 position:relative;
 }
-#parallax_1WA .btn-bordered{
+#parallax_1 .btn-bordered{
 border-color:#fff;
 color:#fff;
 }
-#parallax_1WA h2.page-title{
-color:#fff;
+#parallax_1 h2.page-title{
+color:#ffffff;
 text-transform:uppercase;
 }
 
-#parallax_1WA h3{
+#parallax_1 h3{
 color:#fff;
 font-size: 20px;
 font-family:'Open Sans', sans-serif;
 font-weight: 400;
 }
 
-#parallax_1WA p{
+#parallax_1 p{
 color:#fff;
 font-family:'Open Sans', sans-serif;
 font-size: 16px;
 }
 
-.parallax-bg, #parallax_1WA{
-background:url(../img/demo-images/wa-hero.jpg) no-repeat scroll center top;
+.parallax-bg, #parallax_1{
+background:url(../img/demo-images/parallax-one.jpg) no-repeat scroll center top;
 /*background-size*/
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
    -moz-background-size:cover;
@@ -606,6 +749,10 @@ background:#333;
 }
 .call_to_action{
 padding:100px 0;
+}
+
+.shouticon img{
+  margin: auto;
 }
 
 /* ------------------------------------ */
@@ -662,6 +809,9 @@ padding:100px 0;
 #our-team{
 background:#F3F6FB;
 }
+.page-title {
+  color: #3FBCEA;
+}
 .team-item img{
 width:50%;
 margin: 0 auto;
@@ -674,14 +824,14 @@ background:#F3F6FB;
 text-align:left;
 }
 .team-item h2{
-color:#232D30;
+color:#3FBCEA;
 font-size:24px;
 text-transform:uppercase;
 font-weight:500;
 text-align: center;
 }
 .team-item h4{
-color:#232D30;
+color:#3FBCEA;
 text-transform:uppercase;
 font-weight:300;
 text-align: center;
@@ -874,7 +1024,8 @@ opacity:.6;
 /* -----------------------------------	*/
 
 #call-to-action{
-background:none repeat scroll 0 0 #57bddb;
+/*background:none repeat scroll 0 0 #57bddb;*/
+background:#black;
 color:#fff;
 padding:40px 0;
 text-align:center;
@@ -895,7 +1046,7 @@ font-weight: 300;
 margin: 10px 0 0;
 padding: 5px 25px;
 text-transform: uppercase;
-font-family: 'Josefin Sans';
+font-family: 'Avenir';
 }
 .cta-content a:hover{
 opacity:.7;

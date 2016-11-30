@@ -268,6 +268,11 @@ color:#232D30;
   width:60%;
 }
 
+#aboutWA h2{
+  padding-top: 60px;
+}
+
+
 .page-title{
 color:#4599C8;
 font-family:'Josefin Sans', sans-serif;
@@ -282,10 +287,11 @@ text-transform:uppercase;
 #aboutWA .page-title{
 margin: 0 auto;
 /*margin-top:60px;*/
-text-transform:capitalize;
+/*text-transform:capitalize;*/
 font-size:24px;
-color:#232D30;
+color:#3FBCEA;
 }
+
 
 .btn-filled, .btn-bordered{
 /*border-radius*/
@@ -345,7 +351,7 @@ text-transform:uppercase;
 #aboutA51 .page-title{
 margin: 0 auto;
 /*margin-top:60px;*/
-text-transform:capitalize;
+/*text-transform:capitalize;*/
 font-size:24px;
 color:#232D30;
 }
@@ -506,6 +512,14 @@ z-index:99;
 
 
 /* ------------------------------------ */
+/*       5. Portfolio Page      */
+/* -----------------------------------  */
+
+#portfolioWA p{
+  text-align:left;
+}
+
+/* ------------------------------------ */
 /*       5a. Portfolio Page -CASE STUDY     */
 /* -----------------------------------  */
 
@@ -530,8 +544,7 @@ ul.portfolio-filters li.active, ul.portfolio-filters li:hover{
 background:#86989d;
 color:#fff;
 }
-#portfolio_list{
-}
+
 #portfolio_list .pitem{
 position:relative;
 margin-top:30px;
@@ -556,6 +569,8 @@ width:100%;
      -o-transition:all 200ms linear 0s;
         transition:all 200ms linear 0s;
 }
+
+
 .portfolio_item .portfolio-detail{
 display:none
 }
@@ -986,7 +1001,7 @@ opacity:.6;
 
 #call-to-action{
 /*background:none repeat scroll 0 0 #57bddb;*/
-background:#232D30;
+background:#black;
 color:#fff;
 padding:40px 0;
 text-align:center;
