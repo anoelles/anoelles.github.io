@@ -543,6 +543,11 @@ z-index:99;
   text-align:left;
 }
 
+#portfolioWA ul{
+  text-align: left;
+  color:black;
+}
+
 /* ------------------------------------ */
 /*       5a. Portfolio Page -CASE STUDY     */
 /* -----------------------------------  */
