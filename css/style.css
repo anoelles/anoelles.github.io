@@ -60,7 +60,7 @@ padding:70px 0;
 margin-bottom:30px;
 }
 .hero-title i{
-background:none repeat scroll 0 0 #57bddb;
+background:none repeat scroll 0 0 #3FBCEA;
 /*border-radius*/
 -webkit-border-radius:50%;
    -moz-border-radius:50%;
@@ -265,7 +265,7 @@ color:#232D30;
 #aboutWA img{
   padding-bottom: 50px;
   margin: 0 auto;
-  width:60%;
+  width:80%;
 }
 
 #aboutWA h2{
@@ -301,10 +301,10 @@ color:#3FBCEA;
 margin-top:15px;
 }
 .btn-filled{
-background:#57bddb;
+background:#3FBCEA;
 color:#fff;
 margin-right:20px;
-border:2px solid #57bddb;
+border:2px solid #3FBCEA;
 }
 .btn-bordered{
 border:2px solid #3FBCEA;
@@ -317,7 +317,7 @@ color:#fff;
 opacity:.7;
 }
 .btn-bordered:hover{
-color:#57bddb;
+color:#3FBCEA;
 opacity:.7;
 }
 
@@ -364,10 +364,10 @@ color:#232D30;
 margin-top:15px;
 }
 .btn-filled{
-background:#57bddb;
+background:#3FBCEA;
 color:#fff;
 margin-right:20px;
-border:2px solid #57bddb;
+border:2px solid #3FBCEA;
 }
 .btn-bordered{
 border:2px solid #3FBCEA;
@@ -380,7 +380,7 @@ color:#fff;
 opacity:.7;
 }
 .btn-bordered:hover{
-color:#57bddb;
+color:#3FBCEA;
 opacity:.7;
 }
 
@@ -399,7 +399,7 @@ background:url(../img/demo-images/
         background-size:cover;
 }
 .features-bg{
-background:#57bddb;
+background:#3FBCEA;
 opacity:.6;
 position:absolute;
 left:0;
@@ -490,7 +490,7 @@ display:none
 display:block
 }
 .portfolio-overlay {
-  background: none repeat scroll 0 0 #57BDDB;
+  background: none repeat scroll 0 0 #3FBCEA;
   height: 100%;
   left: 0;
   opacity: 0.6;
@@ -578,7 +578,7 @@ display:none
 display:block
 }
 .portfolio-overlay {
-  background: none repeat scroll 0 0 #57BDDB;
+  background: none repeat scroll 0 0 #3FBCEA;
   height: 100%;
   left: 0;
   opacity: 0.6;
@@ -647,7 +647,7 @@ right:0;
 padding-right:30px;
 }
 .single-testimonial h2{
-color:#57bddb;
+color:#3FBCEA;
 font-family:open sans;
 font-size:20px;
 font-weight:300;
@@ -720,6 +720,7 @@ background:url(../img/demo-images/parallax-one.jpg) no-repeat scroll center top;
      -o-background-size:/*@@prefixmycss->No equivalent*/;
         background-size:cover;
 }
+
 .parallax-bg:before{
 background:#333;
 }
@@ -911,17 +912,17 @@ text-transform:uppercase;
 .popular{
 }
 .popular .price-title{
-background-color:#57bddb;
+background-color:#3FBCEA;
 }
 .popular .price-title h4{
 color:#fff;
 }
 .popular .plan-link a.btn-bordered{
-background:#57bddb;
+background:#3FBCEA;
 color:#fff;
 }
 .popular .plan-link,.popular .plan-features li, .popular .price-title, .popular .plan-features, .popular .plan-price{
-border-color:#57bddb;
+border-color:#3FBCEA;
 }
 
 /* ------------------------------------	*/
@@ -969,7 +970,7 @@ text-transform:uppercase;
 margin:0 5px;
 }
 .single-partner img{
-border:1px solid #57BDDB;
+border:1px solid #3FBCEA;
 width:100%;
 }
 .owl-buttons{
@@ -977,8 +978,8 @@ margin-top:10px;
 margin-left:5px;
 }
 .owl-buttons div{
-border:1px solid #57BDDB;
-color:#57BDDB;
+border:1px solid #3FBCEA;
+color:#3FBCEA;
 display:inline-block;
 font-size:20px;
 height:30px;
@@ -1000,7 +1001,7 @@ opacity:.6;
 /* -----------------------------------	*/
 
 #call-to-action{
-/*background:none repeat scroll 0 0 #57bddb;*/
+/*background:none repeat scroll 0 0 #3FBCEA;*/
 background:#black;
 color:#fff;
 padding:40px 0;
@@ -1082,7 +1083,7 @@ font-weight:300;
 text-transform:uppercase;
 }
 .form-group input[type=text], .form-group input[type=email], .form-group textarea{
-border:1px solid #57bddb;
+border:1px solid #3FBCEA;
 /*border-radius*/
 -webkit-border-radius:0;
    -moz-border-radius:0;
@@ -1113,7 +1114,7 @@ margin-top:0;
 padding: 5px 10px;clear:both;
 }
 #form-messages.success {
-border: 2px solid #57bddb
+border: 2px solid #3FBCEA
 }
 #form-messages.error {
 border:2px solid #cc0000
@@ -1133,7 +1134,7 @@ margin-bottom:5px;
 .address-info ul li{
 }
 .address-info ul li a{
-background:none repeat scroll 0 0 #57bddb;
+background:none repeat scroll 0 0 #3FBCEA;
 color:#fff;
 display:inline-block;
 height:25px;
@@ -1164,7 +1165,7 @@ font-weight:700;
 text-align:right;
 }
 .company-name span{
-color:#57BDDB;
+color:#3FBCEA;
 }
 .animated{
 /*animation-duration*/
@@ -1306,11 +1307,11 @@ float:left;
 /* -----------------------------------	*/
 
 
-a, .navbar-default a.navbar-brand, .btn-bordered, .single-testimonial h2, .team-item h4, .company-name span, .owl-buttons div, .footer-copyright a{color:#57bddb;}
+a, .navbar-default a.navbar-brand, .btn-bordered, .single-testimonial h2, .team-item h4, .company-name span, .owl-buttons div, .footer-copyright a{color:#3FBCEA;}
 
-.hero-title i, .btn-filled, .features-bg, .popular .price-title, .popular .plan-link a.btn-bordered, .address-info ul li a, #preloader, .portfolio-overlay, #call-to-action, .parallax-overlay {background-color:#57bddb}
+.hero-title i, .btn-filled, .features-bg, .popular .price-title, .popular .plan-link a.btn-bordered, .address-info ul li a, #preloader, .portfolio-overlay, #call-to-action, .parallax-overlay {background-color:#3FBCEA}
 
-.btn-filled, .btn-bordered, .form-group input[type=text], .form-group input[type=email], .form-group textarea, .popular .plan-link,.popular .plan-features li, .popular .price-title, .popular .plan-features, .popular .plan-price, .single-partner img, .owl-buttons div {border-color:#57bddb}
+.btn-filled, .btn-bordered, .form-group input[type=text], .form-group input[type=email], .form-group textarea, .popular .plan-link,.popular .plan-features li, .popular .price-title, .popular .plan-features, .popular .plan-price, .single-partner img, .owl-buttons div {border-color:#3FBCEA}
 
 
 
@@ -1320,7 +1321,7 @@ a, .navbar-default a.navbar-brand, .btn-bordered, .single-testimonial h2, .team-
 /* -----------------------------------	*/
 
 .popular .btn-bordered {color:#fff !important}
-#ascrail2000 > div {background:57bddb;}
+#ascrail2000 > div {background:3FBCEA;}
 /* Color Settings */
 .setting_panel{
 background:none repeat scroll 0 0 #FFFFFF;
@@ -1336,7 +1337,7 @@ z-index:9999;
 display:none;
 }
 .setting_panel i#panel_open, .setting_panel i#panel_close{
-background:none repeat scroll 0 0 #57BDDB;
+background:none repeat scroll 0 0 #3FBCEA;
 color:#FFFFFF;
 font-size:18px;
 padding:10px;
@@ -1392,7 +1393,7 @@ margin-bottom:10px;
 margin-bottom:5px;
 }
 .setting_panel .color_lists span#cyan_color{
-background:#57BDDB;
+background:#3FBCEA;
 }
 .setting_panel .color_lists span#red_color{
 background:#EA4848;
