@@ -686,6 +686,10 @@ display:none;
 /* -----------------------------------	*/
 
 
+#parallax_1 .container{
+  max-width:800px;
+}
+
 #parallax_1{
 color:#fff;
 position:relative;
@@ -697,6 +701,9 @@ color:#fff;
 #parallax_1 h2.page-title{
 color:#fff;
 text-transform:uppercase;
+background-color: black;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 
 #parallax_1 h3{
@@ -704,12 +711,23 @@ color:#fff;
 font-size: 20px;
 font-family:'Open Sans', sans-serif;
 font-weight: 400;
+background-color: black;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 
 #parallax_1 p{
 color:#fff;
 font-family:'Open Sans', sans-serif;
 font-size: 16px;
+background-color: black;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#parallax_1 i{
+  background-color: black;
+  padding: 15px;
 }
 
 .parallax-bg, #parallax_1{
@@ -1309,7 +1327,9 @@ float:left;
 
 a, .navbar-default a.navbar-brand, .btn-bordered, .single-testimonial h2, .team-item h4, .company-name span, .owl-buttons div, .footer-copyright a{color:#3FBCEA;}
 
-.hero-title i, .btn-filled, .features-bg, .popular .price-title, .popular .plan-link a.btn-bordered, .address-info ul li a, #preloader, .portfolio-overlay, #call-to-action, .parallax-overlay {background-color:#3FBCEA}
+.hero-title i, .btn-filled, .features-bg, .popular .price-title, .popular .plan-link a.btn-bordered, .address-info ul li a, #preloader, .portfolio-overlay, .parallax-overlay {background-color:#3FBCEA}
+
+#call-to-action {background-color:black}
 
 .btn-filled, .btn-bordered, .form-group input[type=text], .form-group input[type=email], .form-group textarea, .popular .plan-link,.popular .plan-features li, .popular .price-title, .popular .plan-features, .popular .plan-price, .single-partner img, .owl-buttons div {border-color:#3FBCEA}
 
