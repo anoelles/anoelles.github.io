@@ -273,6 +273,11 @@ width:100%;
 color:#232D30;
 }
 
+#aboutWA i{
+  background-color: black;
+  padding: 15px;
+}
+
 #aboutWA p{
   font-family:'Open Sans', sans-serif;
 }
