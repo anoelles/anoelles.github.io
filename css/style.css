@@ -299,6 +299,7 @@ color: #3FBCEA;
    -moz-border-radius:0;
         border-radius:0;
 margin-top:15px;
+margin-bottom:50px;
 }
 .btn-filled{
 background:#3FBCEA;
@@ -423,7 +424,7 @@ position:absolute;
 top:-5px;
 }
 .features-item h2{
-font-family:open sans;
+font-family:'Open Sans', sans-serif;
 font-size:18px;
 font-weight:300;
 margin:0 0 15px;
@@ -446,7 +447,7 @@ ul.portfolio-filters li{
 border:2px solid #86989d;
 color:#86989d;
 display:inline-block;
-font-family:pt sans;
+font-family:'Open Sans', sans-serif;
 margin:3px;
 padding:5px 15px;
 text-transform:uppercase;
@@ -533,7 +534,7 @@ ul.portfolio-filters li{
 border:2px solid #86989d;
 color:#86989d;
 display:inline-block;
-font-family:pt sans;
+font-family:'Open Sans', sans-serif;
 margin:3px;
 padding:5px 15px;
 text-transform:uppercase;
@@ -648,7 +649,7 @@ padding-right:30px;
 }
 .single-testimonial h2{
 color:#3FBCEA;
-font-family:open sans;
+font-family:'Open Sans', sans-serif;
 font-size:20px;
 font-weight:300;
 margin-bottom:25px;
@@ -943,7 +944,7 @@ border:1px solid #ddd;
 }
 .price-title h4{
 color:#666;
-font-family:open sans;
+font-family:'Open Sans', sans-serif;
 font-size:20px;
 font-weight:300;
 letter-spacing:2px;
@@ -965,7 +966,7 @@ padding:20px;
 text-align:center;
 }
 .plan-price h2 span{
-font-family:open sans;
+font-family:'Open Sans', sans-serif;
 font-size:15px;
 font-weight:300;
 margin-bottom:0;
@@ -1032,7 +1033,7 @@ text-align:center;
 font-size:30px;
 }
 .single-count h2{
-font-family:open sans;
+font-family:'Open Sans', sans-serif;
 font-size:50px;
 font-weight:300;
 letter-spacing:5px;
@@ -1094,7 +1095,7 @@ padding:40px 0;
 text-align:center;
 }
 .cta-content h2{
-font-family:open sans;
+font-family:'Open Sans', sans-serif;
 font-size:30px;
 font-weight:300;
 line-height:45px;
@@ -1110,8 +1111,27 @@ margin: 10px 0 0;
 padding: 5px 25px;
 text-transform: uppercase;
 font-family: 'Josefin Sans';
+width: 200px;
 }
 .cta-content a:hover{
+opacity:.7;
+color:#fff;
+text-decoration:none;
+}
+
+.cta-content2 a{
+border: 2px solid #fff;
+color: #fff;
+display: inline-block;
+font-size: 19px;
+font-weight: 300;
+margin: 10px 0 0;
+padding: 5px 25px;
+text-transform: uppercase;
+font-family: 'Josefin Sans';
+width: 200px;
+}
+.cta-content2 a:hover{
 opacity:.7;
 color:#fff;
 text-decoration:none;
@@ -1129,7 +1149,7 @@ position:relative;
 .single-blog{
 }
 .single-blog h2{
-font-family:open sans;
+font-family:'Open Sans', sans-serif;
 font-size:25px;
 font-weight:300;
 margin:10px 0 7px;
