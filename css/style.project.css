@@ -625,6 +625,27 @@ z-index:99;
   color:black;
 }
 
+
+/* ------------------------------------ */
+/*       5. Portfolio Page      */
+/* -----------------------------------  */
+
+#portfolioCP p{
+  text-align:left;
+  color:black;
+}
+
+#portfolioCP .centered{
+  text-align: center;
+  align: center;
+  color:black;
+}
+
+#portfolioCP ul{
+  text-align: center;
+  color:black;
+}
+
 /* ------------------------------------ */
 /*       5a. Portfolio Page -CASE STUDY     */
 /* -----------------------------------  */
