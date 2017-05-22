@@ -4959,6 +4959,22 @@ footer .newsletter-wrapper .newsletter-form .btn {
     color: #CECCCE;
 }
 
+
+#resume a{
+    color: #000;
+}
+
+#resume a:hover{
+    color: #E7B82F;
+}
+
+#contact a{
+    color: #fff;
+}
+
+#contact a:hover{
+    color: #CECCCE;
+}
 .navbar .navbar-brand a:hover img {
     -o-transform: scale(1.05);
     -ms-transform: scale(1.05);
