@@ -1927,6 +1927,7 @@ figure .link-out:hover {
 .sidebox {
     margin-top: 50px;
     display: block;
+    border: #000;
 }
 .sidebox:first-child {
     margin: 0
@@ -2832,6 +2833,9 @@ figure a .text-overlay .info span {
 }
 .parallax.parallax_contact {
     background-image: url(style/images/contact.png)
+}
+.parallax.parallaxa51 {
+    background-image: url(style/images/a51_bg.png)
 }
 /*-----------------------------------------------------------------------------------*/
 /*	25. FORMS
@@ -5013,3 +5017,27 @@ footer .newsletter-wrapper .newsletter-form .btn {
     line-height: 30px;
     font-weight: normal;
 }*/
+/*#background .sidebar{
+    background: #fff;
+}*/
+#background .whitebox{
+    background: #fff;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 0px;
+}
+#background .blog-content{
+    padding-right: 40px;
+}
+#current_site ul{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+}
+#current_site .leadcenter {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    text-align: center;
+}
