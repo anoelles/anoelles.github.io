@@ -1604,7 +1604,7 @@ video::-webkit-media-controls-start-playback-button {
     padding: 15px 10px;
     width: auto;
     height: auto;
-    opacity: 0;
+    opacity: 1;
 }
 .basic-slider:hover .owl-nav .owl-prev,
 .basic-slider:hover .owl-nav .owl-next {
@@ -5034,6 +5034,14 @@ padding-bottom: 0px;
     font-size: 20px;
     line-height: 30px;
     font-weight: normal;
+}
+#design ul{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #current_site .leadcenter {
     font-size: 20px;
