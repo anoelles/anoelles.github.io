@@ -215,7 +215,7 @@ h6 {
     margin-top: 0;
     color: #404040;
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: 600;
 }
 h1 {
     background: rgba(31,33,36,0.9);
@@ -254,7 +254,7 @@ h4.post-title {
     font-size: 18px;
 }
 .main-title {
-    font-weight: 300px;
+    font-weight: 200px;
     font-size: 40px;
     margin-bottom: 30px;
     text-transform: none;
@@ -2836,6 +2836,9 @@ figure a .text-overlay .info span {
 }
 .parallax.parallaxa51 {
     background-image: url(style/images/a51_bg.png)
+}
+.parallax.parallaxFINAO {
+    background-image: url(style/images/FINAO_bg.png)
 }
 /*-----------------------------------------------------------------------------------*/
 /*	25. FORMS
