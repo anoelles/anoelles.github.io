@@ -1435,7 +1435,7 @@ video::-webkit-media-controls-start-playback-button {
     position: relative;
     transition: all 200ms ease-in;
     position: relative;
-    height: 350px;
+    height: 300px;
 }
 /*.steps .steps-item .number {
     background: #4aa2d1;
