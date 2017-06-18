@@ -154,7 +154,7 @@ iframe {
 }
 
 .tp-caption {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', serif;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	01. GENERAL
@@ -300,6 +300,8 @@ h4.post-title {
 .inner {
     padding-top: 90px;
     padding-bottom: 90px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 .page-title .inner {
     padding-top: 40px;
@@ -440,7 +442,7 @@ hr {
     background: #67b7d4
 }
 .badge.pink {
-    background: #ef6578
+    background: #F36BA0
 }
 .badge.green {
     background: #53cfc2
@@ -676,7 +678,7 @@ footer ul.circled li:before {
     background: #9b59b6
 }
 .btn.btn-pink {
-    background: #d487be
+    background: #F36BA0
 }
 .btn.btn-navy {
     background: #34495e
@@ -771,7 +773,7 @@ footer ul.circled li:before {
 .btn-pink:focus,
 .btn-pink:active,
 .btn-pink.active {
-    background: #bd78a9 !important
+    background: #F36BA0 !important
 }
 .btn-navy:hover,
 .btn-navy:focus,
@@ -1228,7 +1230,7 @@ footer ul.circled li:before {
     background: #67b7d4
 }
 .box-color.pink {
-    background: #ef6578
+    background: #F36BA0
 }
 .box-color.green {
     background: #53cfc2
@@ -1300,7 +1302,7 @@ footer ul.circled li:before {
     font-size: 40px
 }
 .revolution .leadsub {
-    font-size: 22px;
+    font-size: 30px;
 }
 .revolution .dark-layer {
     background: rgba(31,33,36,0.9);
@@ -1420,7 +1422,7 @@ video::-webkit-media-controls-start-playback-button {
 .steps .icon {
     font-size: 45px;
     margin-bottom: 25px;
-    color: #4aa2d1;
+    color: #F36BA0;
 }
 .steps {
     counter-reset: stepsNum
@@ -1430,12 +1432,12 @@ video::-webkit-media-controls-start-playback-button {
 }
 .steps .steps-item {
     counter-increment: stepsNum;
-    border: 2px solid #d487be;
+    border: 2px solid #F36BA0;
     padding: 50px 20px 25px;
     position: relative;
     transition: all 200ms ease-in;
     position: relative;
-    height: 300px;
+    height: 330px;
 }
 /*.steps .steps-item .number {
     background: #4aa2d1;
@@ -2835,7 +2837,7 @@ figure a .text-overlay .info span {
     background-image: url(style/images/cp_bg.png)
 }
 .parallax.parallax_contact {
-    background-image: url(style/images/contact.png)
+    background-image: url(style/images/contact_bg.png)
 }
 .parallax.parallaxa51 {
     background-image: url(style/images/a51_bg.png)
@@ -3271,6 +3273,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 /*-----------------------------------------------------------------------------------*/
 .social {
     padding: 0;
+    padding-right: 15px;
     margin: 0;
     font-size: 0;
     line-height: 1;
@@ -3301,7 +3304,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
     width: 40px;
     height: 40px !important;
     line-height: 26px;
-    font-size: 12px;
+    font-size: 20px;
     border-radius: 100%;
     transition: all 200ms ease-in;
 }
@@ -3339,7 +3342,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 }*/
 .social .icon-s-linkedin {
     border-color: #fff;
-    background-color: #3daccf;
+    background-color: #4CB7E8;
     color: #fff;
 }
 .social .icon-s-vimeo {
@@ -3396,7 +3399,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 }*/
 .social .icon-s-github {
     border-color: #fff;
-    background-color: #6c93bb;
+    background-color: #57BF24;
     color: #fff;
 }
 .social .icon-s-songkick {
@@ -3438,7 +3441,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 }*/
 .social .icon-s-instagram {
     border-color: #fff;
-    background-color: #926d53;
+    background-color: #EE9C39;
     color: #fff;
 }
 .social .icon-s-evernote {
@@ -3518,7 +3521,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
     background-color: #6ba3c5
 }
 .social a:hover .icon-s-github {
-    background-color: #92ACC8
+    background-color: #A4D18E
 }
 .social a:hover .icon-s-songkick {
     background-color: #ff3b60
@@ -5059,9 +5062,13 @@ padding-bottom: 0px;
 h2 {
     font-weight: bold;
 }
-h2 {
-    font-weight: bold;
-}
 .steps .steps-item p {
     text-align: justify;
+}
+#contact span {
+    background-color: rgba(31,33,36,0.9);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px
+    padding-bottom: 10px;
 }
