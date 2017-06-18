@@ -852,12 +852,13 @@ footer ul.circled li:before {
     left: 0;
     padding: 0;
     margin: 0;
-    background: rgba(31,33,36,0.45);
+    background: rgba(31,33,36,0);
     box-shadow: none;
 }
 
 .navbar-brand {
     color: #FFF;
+    padding-bottom: 5px;
 }
 .navbar.light {
 	background: rgba(255,255,255,0.85);
@@ -1109,7 +1110,7 @@ footer ul.circled li:before {
     padding: 30px;
     *zoom: 1;
     color: #ececec;
-    background: rgba(31,33,36,1);
+    background: rgba(31,33,36,.1);
 }
 .navbar.solid.yamm:not(.fixed) .yamm-content,
 .navbar.no-opacity.yamm:not(.fixed) .yamm-content {
@@ -1180,7 +1181,7 @@ footer ul.circled li:before {
     padding: 0;
     margin: 0;
     width: 100%;
-    background: rgba(31,33,36,0.95) !important;
+    background: rgba(31,33,36,0.8) !important;
     box-shadow: none;
 }
 .navbar.fixed.light {
@@ -1305,7 +1306,7 @@ footer ul.circled li:before {
     font-size: 30px;
 }
 .revolution .dark-layer {
-    background: rgba(31,33,36,0.9);
+    background: rgba(31,33,36,0.7);
     padding: 20px;
 }
 .revolution .main-title.dark-layer {
@@ -4978,7 +4979,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 }
 
 #resume .publinks a:hover{
-    color: #E7B82F;
+    color: #F36BA0;
     text-decoration: underline;
 }
 
@@ -5074,4 +5075,22 @@ h2 {
     padding-right: 30px;
     padding-top: 50px
     padding-bottom: 50px;*/
+}
+#navbar span {
+    background-color: rgba(31,33,36,0.7);
+/*    padding: 5px;*/
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    }
+#navbar .navbar.fixed span {
+    background-color: rgba(31,33,36,0);
+    padding: 5px;
+    }
+#tldr h2 {
+    text-align: center;
+}
+#tldr p {
+    text-align: justify;
 }
