@@ -3546,7 +3546,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
     background-color: #BAD278
 }
 .social a:hover .icon-s-instagram {
-    background-color: #A8907E
+    background-color: #F5D780
 }
 .social a:hover .icon-s-evernote {
     background-color: #9fdc82
@@ -4923,7 +4923,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
     color: #fff;
 }
 
-#footer .social .icon-s-linkedin {
+/*#footer .social .icon-s-linkedin {
     border-color: #3daccf;
     background-color: #3daccf;
     color: #fff;
@@ -4949,7 +4949,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 }
 #footer .social a:hover .icon-s-instagram {
     background-color: #A8907E
-}
+}*/
 
 #roles .lead {
     font-size: 25px;
@@ -5093,4 +5093,15 @@ h2 {
 }
 #tldr p {
     text-align: justify;
+}
+#other_work h2{
+    color: #fff;
+}
+#brand a{
+    color: #F36BA0;
+}
+.btn-border {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
 }
